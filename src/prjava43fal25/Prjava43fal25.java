@@ -1,7 +1,11 @@
 package prjava43fal25;
 import java.awt.*; // using AWT containers and components
 import java.awt.event.*; // using AWT events and listener interfaces
+
 import java.sql.*;
+
+import java.text.*;
+
 import java.io.*;
 // An AWT GUI program inherits the top-level container java.awt.Frame
 public class Prjava43fal25 extends Frame
@@ -27,7 +31,7 @@ btnCount.addActionListener(this);
 addWindowListener(this);
 // "this" Frame fires WindowEvent its registered WindowEvent listener
 // "this" Frame adds "this" object as a WindowEvent listener
-setTitle("nova finestra prjava43cognom25");
+setTitle("nova finestra prjava43fal25");
 setSize(450, 100); // "this" Frame sets initial size
 setVisible(true); // "this" Frame shows
 }
